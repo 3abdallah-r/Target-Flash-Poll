@@ -91,7 +91,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: appCss,
       },
       // Change filename below if your custom icon is named differently (e.g., /favicon.png)
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" }, 
+      { rel: "icon", href: "/favicon.png", type: "image/x-icon" }, 
     ],
   }),
   shellComponent: RootShell,
